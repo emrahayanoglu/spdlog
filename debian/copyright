@@ -1,0 +1,304 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: spdlog
+Upstream-Contact: <preferred name and address to reach the upstream project>
+Source: <url://example.com>
+#
+# Please double check copyright with the licensecheck(1) command.
+
+Files:     CMakeLists.txt
+           bench/CMakeLists.txt
+           bench/formatter-bench.cpp
+           bench/utils.h
+           cmake/pch.h.in
+           cmake/spdlogConfig.cmake.in
+           example/CMakeLists.txt
+           include/spdlog/async.h
+           include/spdlog/async_logger-inl.h
+           include/spdlog/async_logger.h
+           include/spdlog/cfg/argv.h
+           include/spdlog/cfg/env.h
+           include/spdlog/cfg/helpers-inl.h
+           include/spdlog/cfg/helpers.h
+           include/spdlog/common-inl.h
+           include/spdlog/common.h
+           include/spdlog/details/backtracer-inl.h
+           include/spdlog/details/backtracer.h
+           include/spdlog/details/console_globals.h
+           include/spdlog/details/file_helper-inl.h
+           include/spdlog/details/file_helper.h
+           include/spdlog/details/fmt_helper.h
+           include/spdlog/details/log_msg-inl.h
+           include/spdlog/details/log_msg.h
+           include/spdlog/details/log_msg_buffer-inl.h
+           include/spdlog/details/log_msg_buffer.h
+           include/spdlog/details/mpmc_blocking_q.h
+           include/spdlog/details/null_mutex.h
+           include/spdlog/details/os-inl.h
+           include/spdlog/details/os.h
+           include/spdlog/details/periodic_worker-inl.h
+           include/spdlog/details/periodic_worker.h
+           include/spdlog/details/registry-inl.h
+           include/spdlog/details/registry.h
+           include/spdlog/details/synchronous_factory.h
+           include/spdlog/details/tcp_client-windows.h
+           include/spdlog/details/tcp_client.h
+           include/spdlog/details/thread_pool-inl.h
+           include/spdlog/details/thread_pool.h
+           include/spdlog/details/udp_client-windows.h
+           include/spdlog/details/udp_client.h
+           include/spdlog/fmt/bin_to_hex.h
+           include/spdlog/fmt/chrono.h
+           include/spdlog/fmt/compile.h
+           include/spdlog/fmt/fmt.h
+           include/spdlog/fmt/ostr.h
+           include/spdlog/fmt/ranges.h
+           include/spdlog/fmt/xchar.h
+           include/spdlog/formatter.h
+           include/spdlog/fwd.h
+           include/spdlog/logger-inl.h
+           include/spdlog/logger.h
+           include/spdlog/pattern_formatter-inl.h
+           include/spdlog/pattern_formatter.h
+           include/spdlog/sinks/android_sink.h
+           include/spdlog/sinks/ansicolor_sink-inl.h
+           include/spdlog/sinks/ansicolor_sink.h
+           include/spdlog/sinks/base_sink-inl.h
+           include/spdlog/sinks/base_sink.h
+           include/spdlog/sinks/basic_file_sink-inl.h
+           include/spdlog/sinks/basic_file_sink.h
+           include/spdlog/sinks/daily_file_sink.h
+           include/spdlog/sinks/dist_sink.h
+           include/spdlog/sinks/dup_filter_sink.h
+           include/spdlog/sinks/hourly_file_sink.h
+           include/spdlog/sinks/mongo_sink.h
+           include/spdlog/sinks/msvc_sink.h
+           include/spdlog/sinks/null_sink.h
+           include/spdlog/sinks/ostream_sink.h
+           include/spdlog/sinks/qt_sinks.h
+           include/spdlog/sinks/ringbuffer_sink.h
+           include/spdlog/sinks/rotating_file_sink-inl.h
+           include/spdlog/sinks/rotating_file_sink.h
+           include/spdlog/sinks/sink-inl.h
+           include/spdlog/sinks/sink.h
+           include/spdlog/sinks/stdout_color_sinks-inl.h
+           include/spdlog/sinks/stdout_color_sinks.h
+           include/spdlog/sinks/stdout_sinks-inl.h
+           include/spdlog/sinks/stdout_sinks.h
+           include/spdlog/sinks/syslog_sink.h
+           include/spdlog/sinks/systemd_sink.h
+           include/spdlog/sinks/tcp_sink.h
+           include/spdlog/sinks/udp_sink.h
+           include/spdlog/sinks/wincolor_sink-inl.h
+           include/spdlog/sinks/wincolor_sink.h
+           include/spdlog/spdlog-inl.h
+           include/spdlog/stopwatch.h
+           include/spdlog/tweakme.h
+           include/spdlog/version.h
+           src/async.cpp
+           src/bundled_fmtlib_format.cpp
+           src/cfg.cpp
+           src/color_sinks.cpp
+           src/file_sinks.cpp
+           src/spdlog.cpp
+           src/stdout_sinks.cpp
+           tests/test_sink.h
+Copyright: 2012-2016 Victor Zverovich
+           2015 present, Gabi Melman & spdlog contributors. Distributed under the MIT License (http://opensource.org/licenses/MIT)
+           2015 present, Gabi Melman, mguludag and spdlog contributors. Distributed under the MIT License (http://opensource.org/licenses/MIT)
+           2015-2018 Gabi Melman. Distributed under the MIT License (http://opensource.org/licenses/MIT)
+           2016 Alexander Dalshov & spdlog contributors. Distributed under the MIT License (http://opensource.org/licenses/MIT)
+           2019 ZVYAGIN.Alexander@gmail.com Distributed under the MIT License (http://opensource.org/licenses/MIT)
+           2019 spdlog authors Distributed under the MIT License (http://opensource.org/licenses/MIT)
+License:   __NO_LICENSE__
+
+Files:     .clang-format
+           .clang-tidy
+           .gitattributes
+           .github/workflows/ci.yml
+           .gitignore
+           INSTALL
+           README.md
+           appveyor.yml
+           cmake/ide.cmake
+           cmake/spdlog.pc.in
+           cmake/spdlogCPack.cmake
+           cmake/utils.cmake
+           cmake/version.rc.in
+           include/spdlog/details/windows_include.h
+           include/spdlog/fmt/bundled/locale.h
+           scripts/ci_setup_clang.sh
+           scripts/extract_version.py
+           scripts/format.sh
+           tests/CMakeLists.txt
+           tests/includes.h
+           tests/main.cpp
+           tests/test_async.cpp
+           tests/test_backtrace.cpp
+           tests/test_cfg.cpp
+           tests/test_create_dir.cpp
+           tests/test_daily_logger.cpp
+           tests/test_dup_filter.cpp
+           tests/test_errors.cpp
+           tests/test_eventlog.cpp
+           tests/test_file_helper.cpp
+           tests/test_file_logging.cpp
+           tests/test_fmt_helper.cpp
+           tests/test_macros.cpp
+           tests/test_misc.cpp
+           tests/test_mpmc_q.cpp
+           tests/test_pattern_formatter.cpp
+           tests/test_registry.cpp
+           tests/test_stdout_api.cpp
+           tests/test_stopwatch.cpp
+           tests/test_systemd.cpp
+           tests/test_time_point.cpp
+           tests/utils.cpp
+           tests/utils.h
+Copyright: __NO_COPYRIGHT_NOR_LICENSE__
+License:   __NO_COPYRIGHT_NOR_LICENSE__
+
+Files:     include/spdlog/fmt/bundled/args.h
+           include/spdlog/fmt/bundled/chrono.h
+           include/spdlog/fmt/bundled/color.h
+           include/spdlog/fmt/bundled/compile.h
+           include/spdlog/fmt/bundled/core.h
+           include/spdlog/fmt/bundled/format-inl.h
+           include/spdlog/fmt/bundled/os.h
+           include/spdlog/fmt/bundled/ostream.h
+           include/spdlog/fmt/bundled/printf.h
+           include/spdlog/fmt/bundled/xchar.h
+Copyright: 2012 present, Victor Zverovich
+           2012-2016 Victor Zverovich
+           2012-2018 present, Victor Zverovich and fmt contributors
+License:   __UNKNOWN__
+ For the license information refer to format.h.
+
+Files:     include/spdlog/fmt/bundled/fmt.license.rst
+           include/spdlog/fmt/bundled/format.h
+Copyright: 2012 present, Victor Zverovich
+License:   Expat
+ Permission is hereby granted, free of charge, to any person obtaining
+ a copy of this software and associated documentation files (the
+ "Software"), to deal in the Software without restriction, including
+ without limitation the rights to use, copy, modify, merge, publish,
+ distribute, sublicense, and/or sell copies of the Software, and to
+ permit persons to whom the Software is furnished to do so, subject to
+ the following conditions:
+ .
+ The above copyright notice and this permission notice shall be
+ included in all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+ LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Files:     bench/async_bench.cpp
+           bench/bench.cpp
+Copyright: 2015 Gabi Melman. Distributed under the MIT License (http://opensource.org/licenses/MIT)
+License:   __UNKNOWN__
+ bench.cpp : spdlog benchmarks
+
+Files:     tests/catch.hpp
+Copyright: 2021 Two Blue Cubes Ltd.
+License:   BSL-1.0
+ Distributed under the Boost Software License, Version 1.0. (See accompanying
+
+Files:     bench/latency.cpp
+Copyright: 2018 Gabi Melman. Distributed under the MIT License (http://opensource.org/licenses/MIT)
+License:   __UNKNOWN__
+ latency.cpp : spdlog latency benchmarks
+
+Files:     include/spdlog/fmt/bundled/ranges.h
+Copyright: 2012 present, Victor Zverovich
+           2018 present, Remotion (Igor Schulz)
+License:   __UNKNOWN__
+ For the license information refer to format.h.
+ .
+ {fmt} support for ranges, containers and types tuple interface.
+
+Files:     tests/catch.license
+Copyright: __NO_COPYRIGHT__ in: tests/catch.license
+License:   __UNKNOWN__
+ Permission is hereby granted, free of charge, to any person or organization
+ obtaining a copy of the software and accompanying documentation covered by
+ this license (the "Software") to use, reproduce, display, distribute,
+ execute, and transmit the Software, and to prepare derivative works of the
+ Software, and to permit third-parties to whom the Software is furnished to
+ do so, all subject to the following:
+ .
+ The copyright notices in the Software and this entire statement, including
+ the above license grant, this restriction and the following disclaimer,
+ must be included in all copies of the Software, in whole or in part, and
+ all derivative works of the Software, unless such copies or derivative
+ works are solely in the form of machine-executable object code generated by
+ a source language processor.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT. IN NO EVENT
+ SHALL THE COPYRIGHT HOLDERS OR ANYONE DISTRIBUTING THE SOFTWARE BE LIABLE
+ FOR ANY DAMAGES OR OTHER LIABILITY, WHETHER IN CONTRACT, TORT OR OTHERWISE,
+ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+ DEALINGS IN THE SOFTWARE.
+
+Files:     include/spdlog/spdlog.h
+Copyright: 2015 present, Gabi Melman & spdlog contributors. Distributed under the MIT License (http://opensource.org/licenses/MIT)
+License:   __UNKNOWN__
+ spdlog main header file.
+ see example.cpp for usage example
+
+Files:     include/spdlog/sinks/win_eventlog_sink.h
+Copyright: 2015 present, Gabi Melman & spdlog contributors. Distributed under the MIT License (http://opensource.org/licenses/MIT)
+License:   __UNKNOWN__
+ Writing to Windows Event Log requires the registry entries below to be present, with the following modifications:
+
+Files:     include/spdlog/details/circular_q.h
+Copyright: 2015 present, Gabi Melman & spdlog contributors. Distributed under the MIT License (http://opensource.org/licenses/MIT)
+License:   __UNKNOWN__
+ circular q view of std::vector.
+
+Files:     example/example.cpp
+Copyright: 2015 Gabi Melman. Distributed under the MIT License (http://opensource.org/licenses/MIT)
+License:   __UNKNOWN__
+ spdlog usage example
+
+#----------------------------------------------------------------------------
+# xml and html files (skipped):
+#         logos/jetbrains-variant-4.svg
+
+#----------------------------------------------------------------------------
+# Files marked as NO_LICENSE_TEXT_FOUND may be covered by the following
+# license/copyright files.
+
+#----------------------------------------------------------------------------
+# License file: LICENSE
+ The MIT License (MIT)
+ .
+ Copyright (c) 2016 Gabi Melman.
+ .
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ THE SOFTWARE.
+ .
+ -- NOTE: Third party dependency used by this software --
+ This software depends on the fmt lib (MIT License),
+ and users must comply to its license: https://github.com/fmtlib/fmt/blob/master/LICENSE.rst
+ .
