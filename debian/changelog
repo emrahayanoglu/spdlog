@@ -1,6 +1,6 @@
-spdlog (1.11.0-1) UNRELEASED; urgency=low
+spdlog (1.11.0) UNRELEASED; urgency=low
 
   * Initial release. Closes: #nnnn
     <nnnn is the bug number of your ITP>
 
- -- Emrah Ayanoglu <>  Sun, 12 Mar 2023 16:11:55 +0300
+ -- Emrah Ayanoglu <emrah@cheetahtech.co>  Sun, 12 Mar 2023 16:11:55 +0300
