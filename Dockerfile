@@ -11,6 +11,8 @@ RUN apt-get install -y crossbuild-essential-armhf crossbuild-essential-arm64
 FROM base AS spdlog
 
 RUN pwd
+RUN pwd
+RUN pwd
 
 WORKDIR /app
 
